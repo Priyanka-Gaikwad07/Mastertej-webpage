@@ -1,0 +1,276 @@
+*{
+    margin:0;
+    font-family: Arial;
+    border: border-box;
+}
+
+
+/* navbar */
+.navbar {
+    display:flex;
+    align-items: center;
+}
+
+.nav-logo {
+    margin-left:200px;
+    align-items: center;
+    margin-top:10px;
+}
+
+.address {
+    display: flex;
+    margin-left:400px;
+    align-items: center;
+    justify-content:space-evenly;
+    text-decoration: none;
+    color:white;
+} 
+
+.address a {
+    text-decoration: none;
+    color:black;
+    margin-left:50px;
+}
+
+.hero-section {
+    height: 100px;
+    background-color: #0f1111;
+    color: white;
+    text-align: center;
+    height:155px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-section h1 {
+    font-weight:900px;
+    font:40px Montserrat, sans-serif;
+}
+
+.hero-section p {
+    font-weight:700px;
+    font:25px Montserrat, sans-serif;
+}
+
+.apply {
+    height:50px;
+    width: 565px;
+    background-color: #0f1111;
+    color: white;
+    text-align: center;
+    padding-bottom:3px;
+}
+
+.info {
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.form {
+    border:none;
+    background-color: #66175017;
+    width:574px;
+    height:942px;
+    margin:25px;
+    padding:25px;
+}
+
+.form-group {
+    display:flex;
+    justify-content: space-evenly;
+}
+.form-group1 label {
+    font:18px Montserrat, sans-serif;
+    margin:0px 0px 5px;
+    color:#000000;
+    width:90.11px;
+    height:22.4px;
+    display: block;
+}
+
+.form-group2 label {
+    font:18px Montserrat, sans-serif;
+    margin:0px 0px 5px;
+    color:#000000;
+    width:90.11px;
+    height:22.4px;
+    display: block;
+}
+
+.form-group input {
+    width:257.4px;
+    height:15px;
+    background:#ffffff;
+    padding:15px 0px 15px 20px;
+    border: 1px rgb(177, 175, 175) solid;
+}
+
+
+
+.form-group1 input {
+    width:257.4px;
+    height:15px;
+    background:#ffffff;
+    padding:15px 0px 15px 20px;
+    border: 1px rgb(177, 175, 175) solid;
+}
+
+
+
+.form-group2 input {
+    width:257.4px;
+    height:15px;
+    background:#ffffff;
+    padding:15px 0px 15px 20px;
+    border: 1px rgb(177, 175, 175) solid;
+}
+
+.form-group3 input {
+    margin-top:10px;
+}
+.form-group4 {
+    margin-right:150px;
+    margin-left:10px;
+}
+
+.form-group4 input {
+    margin-top:10px;
+    border:none;
+    background-color: #e9e5e817;
+    box-shadow: none;
+    padding-left:10px;
+}
+
+.form-group label {
+    margin-left:10px;
+}
+
+.form p {
+    font:18px Montserrat, sans-serif;
+    color:#000000;
+    margin:0px 0px 5px;
+}
+
+.sub-form input{
+    width:530px;
+    height:15px;
+    background-color: #ffffff;
+    padding:15px 0px 15px 20px;
+    border: 1px rgb(177, 175, 175) solid;
+}
+
+.form1 {
+    border:none;
+    background-color: #66175017;
+    width:574px;
+    height:942px;
+    margin:25px;
+    padding:25px;
+}
+
+.form1 h2 {
+    color:#000000;  
+}
+
+.select-opt select{
+    width:570px;
+    height:48px;
+    padding:15px 10px;
+    color:#000000;
+    font:16px Montserrat, sans-serif;
+    background-color: #674b5f17;
+}
+
+.slot span {
+    color:#ffffff;
+    width:156px;
+    height:40px;
+    background-color: #24161640;
+    border:none;
+    padding:12px 24px;;
+    border-radius: 3px;;
+}
+
+.foot-panel1 {
+    display :flex;
+    padding:50px 0px 0px;
+    width:1349px;
+    height:136px;
+}
+
+.link-title {
+    width:228px;
+    height:86px;
+    padding:10px;
+    font: 16px Montserrat, sans-serif;
+    margin-left:200px;
+    text-decoration:bold;
+}
+
+.address-items {
+    margin-left:170px;
+    height:46px;
+    width:892px;
+    display:flex;
+    justify-content:space-evenly; 
+    text-decoration: none;
+    color:black;
+    /* position:relative; */
+}
+
+.address-items a {
+    text-decoration: none;
+    color:black;
+    position:relative;
+
+}
+
+.address-items a:hover::after {
+    content:'';
+    height:3px;
+    width:1000;
+    background: black;
+    position:absolute;
+    left:0;
+    bottom:2px;
+    transition:0.5s;
+    width:100%;
+}
+
+.foot-panel2 {
+    display:flex;
+    justify-content:space-between;
+    margin-left:200px;
+    margin-right:200px;
+    /* width:980px; */
+}
+
+
+.links {
+    margin-right:25px;
+}
+
+.foot-panel2  i{
+    margin-left:3px;
+    font-size:20px;
+    position:relative;
+}
+
+.foot-panel2  p{
+    margin-left:70px;
+    margin-top:15px;
+    font-size:0.9rem;
+}
+
+.subscribe button{
+    margin-top:15px;
+    background-color: #661750;
+    color:white;
+    border-radius:3px;
+    border:none;
+    width:125px;
+    height:40px;
+    font: 16px Montserrat, sans-serif;
+    margin-bottom:15px;
+}
